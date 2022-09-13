@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.9" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Checkout.Core\Checkout.Core.csproj" />
+      <ProjectReference Include="..\Checkout.Infrastructure\Checkout.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
